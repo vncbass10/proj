@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:/|ftp://vncbass10:vince1994%40ftp.drivehq.com/vncfileupkeep/|C:\Users\vincent\Documents\GitHub\Vncsfileupkeep\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>https://www.drivehq.com/sharing/ShareLogon.aspx%3fpassword=11362034/6s4pgewhnxy3/|http://download937.mediafire.com/kd973pb28ypg/7hs5e66v4pv6wh9/song+upkeep.exe/|http://www.mediafire.com/download/7hs5e66v4pv6wh9/song_upkeep.exe/|http://www.mediafire.com/folder/m4z8ai1c8b4qa/Vncfileupkeep/|https://github.com/vncbass10/Vncsfileupkeep/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>https://www.drivehq.com/sharing/ShareLogon.aspx%3fpassword=11362034/6s4pgewhnxy3/|http://www.mediafire.com/folder/m4z8ai1c8b4qa/Vncfileupkeep/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

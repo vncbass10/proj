@@ -1,0 +1,1939 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{95976DAA-BE18-49EE-8DF8-5038E482908F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Minecraft_Info_Tool.My.MyApplication</StartupObject>
+    <RootNamespace>Minecraft_Info_Tool</RootNamespace>
+    <AssemblyName>Minecraft Info Tool</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Minecraft Info Tool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Minecraft Info Tool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enchant Id%27s.Designer.vb">
+      <DependentUpon>Enchant Id%27s.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enchant Id%27s.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enchantments.Designer.vb">
+      <DependentUpon>Enchantments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enchantments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Recipes.Designer.vb">
+      <DependentUpon>Recipes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Recipes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Enchant Id%27s.resx">
+      <DependentUpon>Enchant Id%27s.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enchantments.resx">
+      <DependentUpon>Enchantments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipes.resx">
+      <DependentUpon>Recipes.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activatorRail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activatorRail_powered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anvil_base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anvil_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anvil_top_damaged_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anvil_top_damaged_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beacon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_feet_end.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_feet_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_feet_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_head_end.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_head_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_head_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bedrock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockEmerald.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockLapis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockRedstone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookshelf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brewingStand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brewingStand_base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cactus_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cactus_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cactus_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake_inner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrots_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrots_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrots_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrots_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cauldron_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cauldron_inner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cauldron_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cauldron_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloth_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cocoa_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cocoa_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cocoa_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commandBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comparator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comparator_lit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crops_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crops_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crops_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crops_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crops_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crops_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crops_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crops_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daylightDetector_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daylightDetector_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deadbush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroy_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detectorRail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detectorRail_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dispenser_front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dispenser_front_vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorIron_lower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorIron_upper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorWood_lower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorWood_upper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragonEgg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dropper_front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dropper_front_vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enchantment_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enchantment_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enchantment_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endframe_eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endframe_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endframe_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmland_dry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmland_wet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fenceIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire_0.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire_1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowerPot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\furnace_front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\furnace_front_lit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\furnace_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\furnace_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goldenRail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goldenRail_powered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass_side_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gravel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hellrock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hellsand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hopper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hopper_inside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hopper_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\itemframe_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jukebox_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ladder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lava.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lava.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lava_flow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lava_flow.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leaves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leaves_jungle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leaves_jungle_opaque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leaves_opaque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leaves_spruce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leaves_spruce_opaque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lever.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightgem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\melon_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\melon_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobSpawner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroom_brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroom_inside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroom_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroom_skin_brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroom_skin_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroom_skin_stem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mycel_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mycel_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netherBrick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netherquartz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netherStalk_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netherStalk_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netherStalk_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obsidian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oreCoal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oreDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oreEmerald.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oreGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oreIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oreLapis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oreRedstone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piston_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piston_inner_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piston_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piston_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piston_top_sticky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portal.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potatoes_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potatoes_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potatoes_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potatoes_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pumpkin_face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pumpkin_jack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pumpkin_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pumpkin_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quartzblock_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quartzblock_chiseled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quartzblock_chiseled_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quartzblock_lines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quartzblock_lines_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quartzblock_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quartzblock_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rail_turn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstoneDust_cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstoneDust_cross_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstoneDust_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstoneDust_line_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstoneLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstoneLight_lit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redtorch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redtorch_lit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reeds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeater_lit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandstone_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandstone_carved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandstone_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandstone_smooth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandstone_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sapling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sapling_birch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sapling_jungle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sapling_spruce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sponge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stem_bent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stem_straight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stonebrick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stonebricksmooth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stonebricksmooth_carved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stonebricksmooth_cracked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stonebricksmooth_mossy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stoneMoss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stoneslab_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stoneslab_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tallgrass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thinglass_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tnt_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tnt_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tnt_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trapdoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree_birch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree_jungle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree_spruce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tripWire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tripWireSource.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water_flow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water_flow.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waterlily.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteStone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood_birch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood_jungle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood_spruce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\workbench_front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\workbench_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\workbench_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appleGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beefCooked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beefRaw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blazePowder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blazeRod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bootsChain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bootsCloth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bootsCloth_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bootsDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bootsGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bootsIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bow_pull_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bow_pull_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bow_pull_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bucket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bucketLava.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bucketWater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrotGolden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrotOnAStick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cauldron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chestplateChain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chestplateCloth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chestplateCloth_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chestplateDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chestplateGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chestplateIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenCooked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenRaw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cookie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorWood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_lightBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_lime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_magenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_silver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dyePowder_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emerald.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emptyMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enchantedBook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enderPearl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expBottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyeOfEnder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fermentedSpiderEye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireworks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireworksCharge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireworksCharge_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fishCooked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fishingRod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fishingRod_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fishRaw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flintAndSteel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghastTear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glassBottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goldNugget.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hatchetDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hatchetGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hatchetIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hatchetStone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hatchetWood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmetChain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmetCloth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmetCloth_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmetDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmetGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmetIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoeDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoeGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoeIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoeStone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoeWood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingotGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingotIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leggingsChain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leggingsCloth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leggingsCloth_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leggingsDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leggingsGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leggingsIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magmaCream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\melon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecartChest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecartFurnace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecartHopper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecartTnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monsterPlacer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monsterPlacer_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroomStew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netherStalkSeeds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netherStar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\painting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickaxeDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickaxeGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickaxeIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickaxeStone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickaxeWood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porkchopCooked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porkchopRaw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potatoBaked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potatoPoisonous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_contents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pumpkinPie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quiver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_blocks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_chirp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_far.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_mall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_mellohi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_stal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_strad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_wait.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_ward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rottenFlesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ruby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seeds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seeds_melon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seeds_pumpkin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shovelDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shovelGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shovelIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shovelStone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shovelWood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skull_char.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skull_creeper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skull_skeleton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skull_wither.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skull_zombie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slimeball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slot_empty_boots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slot_empty_chestplate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slot_empty_helmet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slot_empty_leggings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speckledMelon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spiderEye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\string.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sugar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sulphur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordGold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordIron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordStone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordWood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writingBook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writtenBook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowDust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\axes-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beacon-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blaze-powder-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bone-meal-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-and-quill-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookshelf-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boots-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bow-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowl-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bread-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brewing-stand-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brick-block-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bucket-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpet-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrot-on-a-stick-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cauldron-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chest-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chestplates-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chiseled-quartz-block-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chiseled-sandstone-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clay-block-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coal-block-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cobblestone-wall-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compass-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cookie-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crafting-table-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cyan-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dandelion-yellow-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daylight-sensor-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detector-rail-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dispenser-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doors-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dropper-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enchanted-golden-apple-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enchantment-table-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ender-chest-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-of-ender-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fence-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fence-gate-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fermented-spider-eye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire-charge-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firework-rocket-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firework-star-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fishing-rod-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flint-and-steel-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flower-pot-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\furnace-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glass-bottle-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glass-pane-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glistering-melon-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glowstone-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\golden-apple-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\golden-carrot-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold-ingot-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold-nugget-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hay-bale-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmets-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoes-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hopper-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron-bars-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item-frame-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack-o-lantern-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jukebox-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ladder-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lead-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leggins-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lever-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light-blue-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light-gray-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lime-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magenta-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magma-cream-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\melon-block-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\melon-seeds-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecart-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecart-with-chest-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecart-with-hopper-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecart-with-tnt-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mineral-block-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minerals-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroom-stew-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nether-brick-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nether-brick-fence-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\note-block-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\painting-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickaxes-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piston-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powered-minecart-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powered-rail-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pressure-plates-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pumpkin-pie-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pumpkin-seeds-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quartz-block-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rails-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstone-block-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstone-comparator-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstone-lamp-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstone-repeater-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redstone-torch-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rose-red-dye-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandstone-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shears-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shovels-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smooth-sandstone-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow-block-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stained-clay-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stick-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticky-piston-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stone-brick-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stone-button-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stone-slabs-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stone-stairs-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sugar-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swords-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tnt-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torches-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trapdoor-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trapped-chest-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tripwire-hook-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weighted-pressure-plates-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wooden-button-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood-planks-crafting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood-slabs-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood-stairs-crafting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wool.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wool-crafting.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

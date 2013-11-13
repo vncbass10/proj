@@ -1,0 +1,14 @@
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\bin\Debug\Minecraft Info Tool.exe.config
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\bin\Debug\Minecraft Info Tool.exe
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\bin\Debug\Minecraft Info Tool.pdb
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\bin\Debug\Minecraft Info Tool.xml
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft_Info_Tool.Form1.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft_Info_Tool.Form2.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft_Info_Tool.Resources.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft Info Tool.vbproj.GenerateResource.Cache
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft Info Tool.exe
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft Info Tool.xml
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft Info Tool.pdb
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft_Info_Tool.Enchantments.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft_Info_Tool.Recipes.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Minecraft Info Tool\Minecraft Info Tool\obj\Debug\Minecraft_Info_Tool.Enchant_Id_s.resources

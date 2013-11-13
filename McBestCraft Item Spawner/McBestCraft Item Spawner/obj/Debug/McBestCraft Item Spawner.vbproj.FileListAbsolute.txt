@@ -1,0 +1,15 @@
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\bin\Debug\McBestCraft Item Spawner.exe.config
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\bin\Debug\McBestCraft Item Spawner.exe.manifest
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\bin\Debug\McBestCraft Item Spawner.application
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\bin\Debug\McBestCraft Item Spawner.exe
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\bin\Debug\McBestCraft Item Spawner.pdb
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\bin\Debug\McBestCraft Item Spawner.xml
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\obj\Debug\McBestCraft_Item_Spawner.Form1.resources
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\obj\Debug\McBestCraft_Item_Spawner.Resources.resources
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\obj\Debug\McBestCraft Item Spawner.vbproj.GenerateResource.Cache
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\obj\Debug\McBestCraft Item Spawner.exe.manifest
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\obj\Debug\McBestCraft Item Spawner.application
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\obj\Debug\McBestCraft Item Spawner.exe
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\obj\Debug\McBestCraft Item Spawner.xml
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\obj\Debug\McBestCraft Item Spawner.pdb
+C:\Users\vincent\documents\visual studio 2012\Projects\McBestCraft Item Spawner\McBestCraft Item Spawner\obj\Debug\McBestCraft_Item_Spawner.Form2.resources

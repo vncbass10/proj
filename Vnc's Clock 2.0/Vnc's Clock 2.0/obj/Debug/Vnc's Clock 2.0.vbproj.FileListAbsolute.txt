@@ -1,0 +1,26 @@
+c:\users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc_s_Clock_2._0.Form1.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc_s_Clock_2._0.Form2.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc_s_Clock_2._0.Resources.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc's Clock 2.0.vbproj.GenerateResource.Cache
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\Vnc's Clock 2.0.exe.config
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\Vnc's Clock 2.0.exe.manifest
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\Vnc's Clock 2.0.application
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\Vnc's Clock 2.0.exe
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\Vnc's Clock 2.0.pdb
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\Vnc's Clock 2.0.xml
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\Vnc's Clock 2.0.exe.CodeAnalysisLog.xml
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\Vnc's Clock 2.0.exe.lastcodeanalysissucceeded
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc's Clock 2.0.exe.manifest
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc's Clock 2.0.application
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc's Clock 2.0.exe
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc's Clock 2.0.xml
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc's Clock 2.0.pdb
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc_s_Clock_2._0.Form3.resources
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc_s_Clock_2._0.Form4.resources
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc_s_Clock_2._0.Form5.resources
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\Interop.WMPLib.dll
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Interop.WMPLib.dll
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc's Clock 2.0.vbproj.ResolveComReference.cache
+C:\Users\vincent\documents\visual studio 2012\Projects\Vnc's Clock 2.0\Vnc's Clock 2.0\obj\Debug\Vnc_s_Clock_2._0.Form6.resources

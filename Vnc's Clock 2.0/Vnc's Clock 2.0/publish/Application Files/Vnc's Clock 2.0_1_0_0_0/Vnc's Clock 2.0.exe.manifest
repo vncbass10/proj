@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Vnc's Clock 2.0.exe" version="1.0.0.0" publicKeyToken="e08bea6056338d1e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Vnc's Clock 2.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Vnc's Clock 2.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vnc's Clock 2.0.exe" size="39936">
+      <assemblyIdentity name="Vnc's Clock 2.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NX7ThgW5rnCAaAgGQGWV/EykmMZ+vXGm//MCg8C2Nx4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Vnc's Clock 2.0.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VINCE-LAPTOP\vincent" issuerKeyHash="b4abbfa573bbae48373ee8ceebf493fda058295e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L71hA1WRpVPBN8NgIvvMfgibR4SG2CfhhfbmRSs2GHo=</DigestValue></Reference></SignedInfo><SignatureValue>QtPvSAC4kyJdq6Xk5BkgyyQ96Km5x7hV3aJhVpY61yk158YyRapZ1877h1OkaNGQdjocqrBndogaMvmn2y7VAslSKC1Mtt7/7Ay0X5jkzZKaaC4X5V1DSOh0QxHlfCIsuYR/KoQJ5uUh3xxGmRqu5adBCWxZ0kzqPSwW8QzVtI4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uVB4+oFo/OJLaUDatg6yVf/i5rWmF0rec55cj22m8UKgYOl/ZNKO8UQmejSWj5gWERjD5nURWNM2ALCNzINTVVdE09ydfpdO68ViTqHoCWvqJZ3GHfwtghZvhZMXsJjC0GIKNDEO7pvjkWliREhx5WqsrdwCfSGVcira1ECFVsc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7a18362b45e6f685e127d88684479b087eccfb2260c337c153a591550361bd2f" Description="" Url=""><as:assemblyIdentity name="Vnc's Clock 2.0.exe" version="1.0.0.0" publicKeyToken="e08bea6056338d1e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VINCE-LAPTOP\vincent</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>P6XZCiLlUOiM9FiQFzgu6HgmRabbVsmLSIwuJK/7+Po=</DigestValue></Reference></SignedInfo><SignatureValue>OCOmB75vkV8Hg4npxJUCc9TdAKUNQX+V2/xV/92qLTvYIwaI0ev/S36S6yo7GGfHpThPQCEr8VaT+7TaK5+ARyjWNymb9fNgLzDa5OlvwDOXq6oAVb2QEdwFVRtdRnVBDObVD5qvivl4vexVetkGUjPn08MYoDFw9MZHmDL4Ttg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uVB4+oFo/OJLaUDatg6yVf/i5rWmF0rec55cj22m8UKgYOl/ZNKO8UQmejSWj5gWERjD5nURWNM2ALCNzINTVVdE09ydfpdO68ViTqHoCWvqJZ3GHfwtghZvhZMXsJjC0GIKNDEO7pvjkWliREhx5WqsrdwCfSGVcira1ECFVsc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQLTIgQ6AU4KJByZ20xX9wVDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAVgBJAE4AQwBFAC0ATABBAFAAVABPAFAAXAB2AGkAbgBjAGUAbgB0MB4XDTEzMDQwODE2NDkyOVoXDTE0MDQwODIyNDkyOVowMzExMC8GA1UEAx4oAFYASQBOAEMARQAtAEwAQQBQAFQATwBQAFwAdgBpAG4AYwBlAG4AdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuVB4+oFo/OJLaUDatg6yVf/i5rWmF0rec55cj22m8UKgYOl/ZNKO8UQmejSWj5gWERjD5nURWNM2ALCNzINTVVdE09ydfpdO68ViTqHoCWvqJZ3GHfwtghZvhZMXsJjC0GIKNDEO7pvjkWliREhx5WqsrdwCfSGVcira1ECFVscCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBsel5B0F9RDaYzrGSkmpkNuZVhoBVJZLXZ028W3HFL5r+5keE0W94Qo45qkC22kc/bLizrgUeywsfrRamVQeTe8mnGhSNuPSXbN/9GgNOM5XJ7SRE++yGSRJ95KyByEJ2q9CeNEkw8JmaDK5+cLynlBJ0iBWcSKwU15JrVmeUrBA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

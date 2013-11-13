@@ -1,0 +1,10 @@
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\bin\Debug\Mega Clicker.exe.config
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\bin\Debug\Mega Clicker.exe
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\bin\Debug\Mega Clicker.pdb
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\bin\Debug\Mega Clicker.xml
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\obj\Debug\Mega_Clicker.Form1.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\obj\Debug\Mega_Clicker.Resources.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\obj\Debug\Mega Clicker.vbproj.GenerateResource.Cache
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\obj\Debug\Mega Clicker.exe
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\obj\Debug\Mega Clicker.xml
+c:\users\vincent\documents\visual studio 2012\Projects\Mega Clicker\Mega Clicker\obj\Debug\Mega Clicker.pdb

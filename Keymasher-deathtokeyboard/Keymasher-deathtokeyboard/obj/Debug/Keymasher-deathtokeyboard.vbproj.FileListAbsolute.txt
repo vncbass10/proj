@@ -1,0 +1,14 @@
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\bin\Debug\Keymasher-deathtokeyboard.exe.config
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\bin\Debug\Keymasher-deathtokeyboard.exe
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\bin\Debug\Keymasher-deathtokeyboard.pdb
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\bin\Debug\Keymasher-deathtokeyboard.xml
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\obj\Debug\Keymasher_deathtokeyboard.Form1.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\obj\Debug\Keymasher_deathtokeyboard.Resources.resources
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\obj\Debug\Keymasher-deathtokeyboard.vbproj.GenerateResource.Cache
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\obj\Debug\Keymasher-deathtokeyboard.exe
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\obj\Debug\Keymasher-deathtokeyboard.xml
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\obj\Debug\Keymasher-deathtokeyboard.pdb
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\bin\Debug\Keymasher-deathtokeyboard.exe.manifest
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\bin\Debug\Keymasher-deathtokeyboard.application
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\obj\Debug\Keymasher-deathtokeyboard.exe.manifest
+c:\users\vincent\documents\visual studio 2012\Projects\Keymasher-deathtokeyboard\Keymasher-deathtokeyboard\obj\Debug\Keymasher-deathtokeyboard.application

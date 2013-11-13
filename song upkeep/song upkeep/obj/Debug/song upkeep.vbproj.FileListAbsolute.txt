@@ -1,0 +1,16 @@
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song_upkeep.Form1.resources
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song_upkeep.Resources.resources
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song upkeep.vbproj.GenerateResource.Cache
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song_upkeep.SplashScreen1.resources
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Debug\song upkeep.exe.config
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Debug\song upkeep.exe.manifest
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Debug\song upkeep.application
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Debug\song upkeep.exe
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Debug\song upkeep.pdb
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Debug\song upkeep.xml
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song upkeep.TrustInfo.xml
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song upkeep.exe.manifest
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song upkeep.application
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song upkeep.exe
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song upkeep.xml
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Debug\song upkeep.pdb

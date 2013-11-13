@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Keymasher-deathtokeyboard.exe" version="1.0.0.1" publicKeyToken="1d15bbfd1c25ae2c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Keymasher-deathtokeyboard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Keymasher-deathtokeyboard.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Keymasher-deathtokeyboard.exe" size="36864">
+      <assemblyIdentity name="Keymasher-deathtokeyboard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FkLGM5I+hA0hQheCzIq4d2PF3sLhxjdYWTcXcH2cX8s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Keymasher-deathtokeyboard.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VINCE-LAPTOP\vincent" issuerKeyHash="2c069ed8bca82ee2557dcb8459f16153929f5438" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IIS8ERSy4wIE3rqdjkKzbpRALEAf56xSfozuQr89qw0=</DigestValue></Reference></SignedInfo><SignatureValue>JqVfjPY/p8syw2KKxihW0xmn+7Wx5Wljh/3BrPptLATI/uoxjiz9F7huDxyIiOiaqnSRt2YZq/Z3YOuvRbaB9raFXSfQDO8jshgHV1/nYq73YTgr7RSul9zsC6qdOyHlStlZmZ3NrbdeA/vN0bgjfc39XqE53PEcESFjac2vpf0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uBSM3hsYikkrqDgf8NrYFom8iSa/RLOw09gY2bgtXyV9Zno5l2pA1ICanO0cXxPPspKGiVUGCjBuqCUhowPXWS7zjHUht89C9GlHt2FYAimvS4tbtEocbEjq84wDEKEHujs0iZsI1URRquU1T3ThrsZK9LeH4UzzqHlgJu1RH58=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0dab3dbf42ee8c7e52ace71f402c40946eb3428e9dbade0402e3b21411bc8420" Description="" Url=""><as:assemblyIdentity name="Keymasher-deathtokeyboard.exe" version="1.0.0.1" publicKeyToken="1d15bbfd1c25ae2c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VINCE-LAPTOP\vincent</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1TeqpYWyyc3h5zj9puqJRAJulRLpMXKJ1u253cKoglk=</DigestValue></Reference></SignedInfo><SignatureValue>dfy/f25AfzqNQGJP/4VCtmaF7/iTrthHYGLPsUpSpwq9HRaJTYe1E55bNbfhfMSUQRVZfjjDS98dr6Fd/z12EbhMEgDtz0Lq9Z1h1B9f/DGDdp5NAhHnJv9q/CRCa+7yIwJBfvoxzeFAINR1GU2Ev3e+sLxDhGDSN8LSGL+fFsQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uBSM3hsYikkrqDgf8NrYFom8iSa/RLOw09gY2bgtXyV9Zno5l2pA1ICanO0cXxPPspKGiVUGCjBuqCUhowPXWS7zjHUht89C9GlHt2FYAimvS4tbtEocbEjq84wDEKEHujs0iZsI1URRquU1T3ThrsZK9LeH4UzzqHlgJu1RH58=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQNezkorw/05xAv/vMptWH4DANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAVgBJAE4AQwBFAC0ATABBAFAAVABPAFAAXAB2AGkAbgBjAGUAbgB0MB4XDTEzMDMyMDAwMjYyMVoXDTE0MDMyMDA2MjYyMVowMzExMC8GA1UEAx4oAFYASQBOAEMARQAtAEwAQQBQAFQATwBQAFwAdgBpAG4AYwBlAG4AdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuBSM3hsYikkrqDgf8NrYFom8iSa/RLOw09gY2bgtXyV9Zno5l2pA1ICanO0cXxPPspKGiVUGCjBuqCUhowPXWS7zjHUht89C9GlHt2FYAimvS4tbtEocbEjq84wDEKEHujs0iZsI1URRquU1T3ThrsZK9LeH4UzzqHlgJu1RH58CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAXZWBysTb4U88QMOeDtzL5b+15bP5uHcCOmE8m8xwtuQCGX+WprO/KRNuGr1aSM+pLgBng6WMSXZkOMbBfIuCyyw6uJcYM2xE/+v1aNcYPp0Z6iLyHpqJE/AJqPpcHUZOR1ROtOrG/jKnNJUv7/jykcK98qjnbiBvTWGdtPKXEGQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

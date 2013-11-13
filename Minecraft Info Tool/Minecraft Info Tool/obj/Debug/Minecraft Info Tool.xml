@@ -1,0 +1,1474 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MinecraftInfoTool
+</name>
+</assembly>
+<members>
+<member name="P:Minecraft_Info_Tool.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources._string">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.activatorRail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.apple">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.appleGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.axes_crafting">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.beacon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bedrock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.beefCooked">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.beefRaw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.blazePowder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.blazeRod">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.blockDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.blockEmerald">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.blockGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.blockIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.blockLapis">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.blockRedstone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.boat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.book">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bookshelf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bootsChain">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bootsCloth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bootsDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bootsGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bootsIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bowl">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bread">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.brewingStand">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.brick">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bucket">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bucketLava">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.bucketWater">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cactus_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cake">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cake_bottom">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cake_top">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.Capture">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.Capture1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.Capture2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.Capture3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.Capture4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.carrotGolden">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.carrotOnAStick">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.carrots">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cauldron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cauldron_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.chestplateChain">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.chestplateCloth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.chestplateDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.chestplateGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.chestplateIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.chickenCooked">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.chickenRaw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.clay">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_0">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_13">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_14">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_15">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cloth_9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.coal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cocoa_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.commandBlock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.comparator">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.cookie">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.daylightDetector_top">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.deadbush">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.detectorRail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.diamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.diode">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dirt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dispenser_front">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.doorIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.doorWood">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dragonEgg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dropper_front">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_black">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_blue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_brown">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_cyan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_gray">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_green">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_lightBlue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_lime">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_magenta">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_orange">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_pink">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_purple">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_red">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_silver">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_white">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.dyePowder_yellow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.egg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.emerald">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.emptyMap">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.enchantedBook">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.enchantment_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.enderPearl">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.endframe_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.expBottle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.eyeOfEnder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.farmland_dry">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.feather">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fenceIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fermentedSpiderEye">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fern">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fire_01">
+	<summary>
+  Looks up a localized string similar to 8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fire_11">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fireball">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fireworks">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fireworksCharge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fishCooked">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fishingRod">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.fishRaw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.flint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.flintAndSteel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.flower">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.flowerPot">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.frame">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.furnace_front">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.furnace_front_lit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.ghastTear">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.glass">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.glassBottle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.goldenRail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.goldNugget">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.grass_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.gravel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hatchetDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hatchetGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hatchetIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hatchetStone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hatchetWood">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hellrock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hellsand">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.helmetChain">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.helmetCloth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.helmetDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.helmetGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.helmetIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hoeDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hoeGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hoeIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hoeStone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.hoeWood">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.ice">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.ingotGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.ingotIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.jukebox_top">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.ladder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.lava_flow1">
+	<summary>
+  Looks up a localized string similar to 0*3
+1*3
+2*3
+3*3
+4*3
+5*3
+6*3
+7*3
+8*3
+9*3
+10*3
+11*3
+12*3
+13*3
+14*3
+15*3
+.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.lava1">
+	<summary>
+  Looks up a localized string similar to 0*2
+1*2
+2*2
+3*2
+4*2
+5*2
+6*2
+7*2
+8*2
+9*2
+10*2
+11*2
+12*2
+13*2
+14*2
+15*2
+16*2
+17*2
+18*2
+19*2
+18*2
+17*2
+16*2
+15*2
+14*2
+13*2
+12*2
+11*2
+10*2
+9*2
+8*2
+7*2
+6*2
+5*2
+4*2
+3*2
+2*2
+1*2
+.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leather">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leaves">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leaves_jungle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leaves_spruce">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leggingsChain">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leggingsCloth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leggingsCloth_overlay">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leggingsDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leggingsGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.leggingsIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.lever">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.lightgem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.magmaCream">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.map">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.melon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.melon_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.milk">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.minecart">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.minecartChest">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.minecartFurnace">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.minecartHopper">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.minecartTnt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.mobSpawner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.monsterPlacer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.monsterPlacer_overlay">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.mushroom_brown">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.mushroom_red">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.mushroom_skin_brown">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.mushroom_skin_red">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.mushroom_skin_stem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.mushroomStew">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.musicBlock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.mycel_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.mycel_top">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.netherBrick">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.netherquartz">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.netherStalk_0">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.netherStalk_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.netherStalk_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.netherStalkSeeds">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.netherStar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.obsidian">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.oreCoal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.oreDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.oreEmerald">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.oreGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.oreIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.oreLapis">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.oreRedstone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.painting">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.paper">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.pickaxeDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.pickaxeGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.pickaxeIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.pickaxeStone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.pickaxeWood">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.piston_top">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.piston_top_sticky">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.porkchopCooked">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.porkchopRaw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.portal1">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.potato">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.potatoBaked">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.potatoPoisonous">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.potion">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.potion_splash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.pumpkin_face">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.pumpkin_jack">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.pumpkinPie">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.quartzblock_chiseled">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.quartzblock_lines">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.quartzblock_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.quiver">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.rail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_13">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_blocks">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_cat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_chirp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_far">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_mall">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_mellohi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_stal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_strad">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_wait">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.record_ward">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.redstone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.redstoneLight">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.redstoneLight_lit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.redtorch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.redtorch_lit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.reeds">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.repeater">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.rose">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.rottenFlesh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.saddle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sand">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sandstone_carved">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sandstone_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sandstone_smooth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sapling">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sapling_birch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sapling_jungle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sapling_spruce">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.seeds">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.seeds_melon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.seeds_pumpkin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.shears">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.shovelDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.shovelGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.shovelIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.shovelStone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.shovelWood">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sign">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.skull_char">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.skull_creeper">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.skull_skeleton">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.skull_wither">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.skull_zombie">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.slimeball">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.snow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.snow_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.snowball">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.speckledMelon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.spiderEye">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sponge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stick">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stonebrick">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stonebricksmooth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stonebricksmooth_carved">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stonebricksmooth_cracked">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stonebricksmooth_mossy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stoneMoss">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stoneslab_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.stoneslab_top">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sugar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.sulphur">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.swordDiamond">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.swordGold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.swordIron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.swordStone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.swordWood">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.tallgrass">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.tnt_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.torch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.trapdoor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.tree_birch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.tree_jungle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.tree_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.tree_spruce">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.tree_top">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.tripWire">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.tripWireSource">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.vine">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.water_flow1">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.water1">
+	<summary>
+  Looks up a localized string similar to 0*2
+1*2
+2*2
+3*2
+4*2
+5*2
+6*2
+7*2
+8*2
+9*2
+10*2
+11*2
+12*2
+13*2
+14*2
+15*2
+16*2
+17*2
+18*2
+19*2
+20*2
+21*2
+22*2
+23*2
+24*2
+25*2
+26*2
+27*2
+28*2
+29*2
+30*2
+31*2
+.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.waterlily">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.web">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.wheat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.whiteStone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.wood">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.wood_birch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.wood_jungle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.wood_spruce">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.workbench_front">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.workbench_side">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.workbench_top">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.writingBook">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.writtenBook">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Minecraft_Info_Tool.My.Resources.Resources.yellowDust">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Minecraft_Info_Tool.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

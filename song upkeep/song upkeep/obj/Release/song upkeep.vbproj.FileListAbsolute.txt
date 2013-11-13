@@ -1,0 +1,16 @@
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Release\song upkeep.exe.config
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Release\song upkeep.exe.manifest
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Release\song upkeep.application
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Release\song upkeep.exe
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Release\song upkeep.pdb
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\bin\Release\song upkeep.xml
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song_upkeep.Form1.resources
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song_upkeep.Resources.resources
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song upkeep.vbproj.GenerateResource.Cache
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song upkeep.TrustInfo.xml
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song upkeep.exe.manifest
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song upkeep.application
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song upkeep.exe
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song upkeep.xml
+c:\users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song upkeep.pdb
+C:\Users\vincent\documents\visual studio 2012\Projects\song upkeep\song upkeep\obj\Release\song_upkeep.SplashScreen1.resources
